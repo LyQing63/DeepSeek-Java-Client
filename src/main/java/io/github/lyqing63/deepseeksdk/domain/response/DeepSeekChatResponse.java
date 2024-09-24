@@ -13,6 +13,7 @@ public class DeepSeekChatResponse {
     /**
      * 模型生成的 completion 的选择列表。
      */
+    // TODO 将Object的类型也封装
     private Object[] choices;
 
     /**
@@ -39,6 +40,7 @@ public class DeepSeekChatResponse {
     /**
      * 该对话补全请求的用量信息。
      */
+    // TODO 将Object的类型也封装
     private Object usage;
 
 }

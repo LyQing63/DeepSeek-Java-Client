@@ -10,7 +10,7 @@ public class DeepSeekChatRequest implements Serializable {
     /**
      * 要发送的消息
      */
-    private Object[] messages;
+    private Message[] messages;
 
     /**
      * 选择模型
@@ -107,7 +107,7 @@ public class DeepSeekChatRequest implements Serializable {
      */
     private Integer topLogprobs;
 
-    public DeepSeekChatRequest(Object[] messages, String model) {
+    public DeepSeekChatRequest(Message[] messages, String model) {
         this.messages = messages;
         this.model = model;
     }
